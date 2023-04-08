@@ -1,0 +1,58 @@
+#/bin/bash
+
+
+
+printf "\e[33mInitiating SYSTEM UPDATE\e[0m\n"
+
+
+
+apt-get update -y
+
+
+
+sleep 10
+
+
+
+printf "\e[32mSystem update is complete\e[0m\n"
+
+
+
+sleep 3
+
+
+
+printf "\e[33mIntiating SYSTEM UPGRADE\e[0m\n"
+
+
+
+apt-get upgrade -y
+
+
+
+sleep 5
+
+
+
+printf "\e[32mSystem upgrade is complete\e[0m\n"
+
+
+
+sleep 3
+
+
+
+printf "\e[31mClear screen\e[0m\n"
+
+
+
+clear 
+
+
+
+sleep 2
+
+
+
+figlet READY TO ROCK!
+
